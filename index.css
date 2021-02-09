@@ -69,6 +69,15 @@ nav a {
     color: #666;
     text-transform: uppercase;
 }
+nav a:hover {
+    color: #f9caca !important;
+}
+.shop-nav {
+    display: none;
+}
+.highlight {
+    color: #f9caca !important;
+}
 main {
     max-width: 1400px;
     margin: 0 auto;
@@ -119,6 +128,7 @@ main {
   flex-basis: 100%;
   flex: 1;
 }
+
 .card {
     width: 100%;
     margin: 0 0 40px;
@@ -160,6 +170,10 @@ main {
     font-weight: bold;
     font-size: 14px;
 }
+.cta:hover {
+    color: #fff;
+    background-color: #333;
+}
 
 /* SMALLER SCREEN CSS */
 @media only screen and (min-width: 600px) {
@@ -177,10 +191,16 @@ header h1 {
     }
 nav {
     margin: 0 auto;
+    padding: 20px 0;
 }
 nav a {
     margin: 20px;
     font-size: 20px;
+}
+ .shop-nav {
+    border: 0;
+    background: #eee;
+    display: block;
 }
 main {
     padding: 40px;
