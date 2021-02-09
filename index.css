@@ -14,6 +14,7 @@ body {
     margin: 0 auto;
     padding: 0;
     background-color: #fff;
+    color: #333;
     font-family: 'Rubik', sans-serif;
     line-height: 1.4;
     text-align: left;
@@ -68,6 +69,11 @@ nav a {
     color: #666;
     text-transform: uppercase;
 }
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px;
+}
 .content-title {
     font-family: American Typewriter, serif;
     font-weight: normal;
@@ -101,6 +107,49 @@ nav a {
     content: '\a0';
     background-color: #f9caca;
 }
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.card {
+    width: 100%;
+    margin: 0 0 40px;
+    border: 1px solid #ccc;
+}
+.card img{
+    width: 100%;
+}
+.card-text {
+    padding: 20px;
+}
+.card-heading {
+    font-family: American Typewriter, serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.card-caption {
+    font-size: 14px;
+    margin-bottom: 20px;
+    
+}
+.cta {
+    width: fit-content;
+    background-color: #f9caca;
+    padding: 10px 50px;
+    color: #333;
+    font-family: American Typewriter, serif;
+    border-radius: 20px;
+    text-align:center;
+    margin: 0 auto;
+}
 
 /* SMALLER SCREEN CSS */
 @media only screen and (min-width: 600px) {
@@ -123,6 +172,9 @@ nav a {
     margin: 20px;
     font-size: 20px;
 }
+main {
+    padding: 40px;
+}
 .content-title {}
 .content-title:before {
     max-width:35%;
@@ -130,6 +182,7 @@ nav a {
 .content-title:after {
     max-width:35%;
     }
+
 }
 
 
@@ -159,15 +212,23 @@ nav {
     }
 .content-title:after {
     max-width:40%;
-    }    
+    } 
+.row {margin: 40px 0}
+.column {
+display: inline;
+    }
+.card {
+    width: 30%;
+    display: inline-block;
+    }
+.center-card {
+        
+    margin: 0 60px;
+    }
 }
     
 
-main {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 40px 0;
-}
+
 footer {
     background-color: #f9caca;
     padding: 20px;
