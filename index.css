@@ -37,16 +37,17 @@ header {
     background-color: #f5eaea;
 }
 header img {
-    width: 50px;
-    padding: 20px;
+    width: 70px;
+    padding: 10px;
     display: inline-block;
     text-align: left;
 }
 header h1{
+    width:60%;
     margin: 0px 0 30px;
     padding: 0;
     vertical-align: bottom;
-    font-size: 25px;
+    font-size: 28px;
     font-family: American Typewriter, serif;
     font-weight: normal;
     color: #666;
@@ -162,8 +163,9 @@ header img {
     padding: 10px 20px;
     }
 header h1 {
+    width:70%;
     font-size: 30px;
-    margin: 45px 20px;
+    margin: 45px 0px;
     }
 nav {
     margin: 0 auto;
