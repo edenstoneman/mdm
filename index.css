@@ -43,10 +43,10 @@ header img {
     text-align: left;
 }
 header h1{
-    margin: 0px 0 30px;
+    margin: 0px 0 35px;
     padding: 0;
     vertical-align: bottom;
-    font-size: 28px;
+    font-size: 25px;
     font-family: American Typewriter, serif;
     font-weight: normal;
     color: #666;
@@ -130,9 +130,17 @@ main {
 .card-text {
     padding: 20px;
 }
+.card-category {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #666;
+    font-weight: bold;
+}
 .card-heading {
     font-family: American Typewriter, serif;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 .card-caption {
@@ -149,6 +157,8 @@ main {
     border-radius: 20px;
     text-align:center;
     margin: 0 auto;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 /* SMALLER SCREEN CSS */
@@ -182,6 +192,19 @@ main {
 .content-title:after {
     max-width:35%;
     }
+.card-category {
+    font-size: 15px;
+}
+.card-heading {
+    font-size: 25px;
+}
+.card-caption {
+    font-size: 18px;
+    
+}
+.cta {
+    font-size: 16px;
+}
 
 }
 
@@ -225,6 +248,7 @@ display: inline;
         
     margin: 0 60px;
     }
+
 }
     
 
