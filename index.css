@@ -93,7 +93,7 @@ main {
     background-color: #fff;
 }
 section {
-    padding: 0 50px;
+    padding: 0 30px;
 }
 .content-title {
     font-family: American Typewriter, serif;
@@ -264,6 +264,9 @@ nav a {
 main {
     padding: 20px 0;
 }
+section {
+    padding: 0 50px;
+}
 .content-title { 
     font-size: 30px;
     }
@@ -374,6 +377,3 @@ footer {
         padding: 20px 0;
     }
 }
-    
-
-
