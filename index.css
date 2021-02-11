@@ -239,7 +239,12 @@ footer {
     text-align: center;
     margin: 0 auto;
 }
-
+.cards-card-heading {
+    font-family: American Typewriter, serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
 /* SMALLER SCREEN CSS */
 @media only screen and (min-width: 600px) {
 header {
