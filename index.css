@@ -80,10 +80,10 @@ nav a {
     text-transform: uppercase;
 }
 nav a:hover {
-    color: #f9caca !important;
+    color: #fff !important;
 }
 .highlight {
-    color: #f9caca !important;
+    color: #000 !important;
 }
 main {
     max-width: 1400px;
@@ -149,7 +149,7 @@ section {
     display: inline-block;
 }
 .homepage-blog-text {
-    margin: 15px;
+    margin: 20px;
     display: inline-block;
 }
 .homepage-blog-heading {
@@ -192,7 +192,7 @@ section {
 .card-category {
     font-size: 12px;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     color: #666;
     font-weight: bold;
@@ -229,7 +229,15 @@ footer {
     padding: 20px;
     margin: 0;
     color: #fff;
+    text-align: left;
+    height: 50px;
+}
+.footer-container {
+    display:none;
+}
+.mobile-footer {
     text-align: center;
+    margin: 0 auto;
 }
 
 /* SMALLER SCREEN CSS */
@@ -243,7 +251,7 @@ header h1 {
     font-size: 30px;
     margin: 45px 0px;
     }
-    .topnav {
+.topnav {
         display:none;
     }
 nav {
@@ -289,7 +297,6 @@ section {
 .homepage-blog-heading {
     font-size: 25px;
 }
-
 .homepage-blog-caption {
     font-size: 18px;
 }
@@ -350,7 +357,12 @@ display: inline;
     margin: 0 60px;
 }
 .homepage-blog {
-       max-width: 1400px; 
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 0 40px;
+    padding: 0 0 50px;
+    border:none;
+    border-bottom: 1px solid #ccc;
     }
 .homepage-blog img{
     width: 100%;
@@ -358,14 +370,13 @@ display: inline;
     display: inline-block;
 }
 .homepage-blog-text {
-    margin:20px;
+    margin: 0 20px 20px;
     position: absolute;
-        max-width: 880px;
+    max-width: 880px;
 }
 .homepage-blog-heading {
     font-size: 35px;
 }
-
 .homepage-blog-caption {
     font-size: 18px;
     margin-right:15px;
@@ -376,8 +387,49 @@ display: inline;
     font-size: 15px;
 }
 footer {
-        max-width: 1400px;
-        margin: 0 auto 100px;
-        height: 200px;
+    max-width: 1400px;
+    margin: 0 auto 100px;
+    height: 200px;
+    padding: 50px 60px 100px;
+    }
+.mobile-footer {display:none}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block !important;
+    }
+.footer-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    }
+.footer-column {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 35px;
+    flex: 0 0 40%;
+    }
+.footer-column img {
+    width:200px;
+    }
+.footer-heading {
+    font-size: 25px;
+    color: #666;
+    font-family: American Typewriter, serif;
+    }
+.footer-caption {
+    padding: 10px 0 0;
+    font-size: 18px;
+    color: #666;
+    display: block;  
+    }
+.footer-caption a {
+    display: block;
+    padding: 5px 0 0;    
     }
 }
